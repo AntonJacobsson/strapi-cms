@@ -23,6 +23,10 @@
     "description": {
       "type": "text",
       "required": true
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
