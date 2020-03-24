@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Tags"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "articles": {
+      "collection": "articles",
+      "via": "tags",
+      "dominant": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "tags"
+}

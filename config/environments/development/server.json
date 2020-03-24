@@ -1,13 +1,10 @@
 {
-  "host": "localhost",
+  "host": "api.ajacobsson.com",
   "port": 1337,
   "proxy": {
     "enabled": false
   },
   "cron": {
     "enabled": false
-  },
-  "admin": {
-    "autoOpen": false
   }
 }
