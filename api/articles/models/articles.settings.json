@@ -29,8 +29,12 @@
       "model": "user"
     },
     "tags": {
-      "via": "articles",
-      "collection": "tags"
+      "collection": "tags",
+      "via": "articles"
+    },
+    "comments": {
+      "via": "article",
+      "collection": "comments"
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "comments",
+  "info": {
+    "name": "Comments"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "article": {
+      "model": "articles",
+      "via": "comments"
+    },
+    "isPublished": {
+      "type": "boolean"
+    },
+    "email": {
+      "type": "email"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

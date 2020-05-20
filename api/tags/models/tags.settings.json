@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "tags",
   "info": {
     "name": "Tags"
   },
@@ -13,11 +15,9 @@
       "unique": true
     },
     "articles": {
-      "collection": "articles",
       "via": "tags",
+      "collection": "articles",
       "dominant": true
     }
-  },
-  "connection": "default",
-  "collectionName": "tags"
+  }
 }
